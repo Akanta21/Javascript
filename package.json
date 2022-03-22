@@ -6,7 +6,7 @@
   "main": "",
   "scripts": {
     "test": "jest --no-cache",
-    "style": "standard",
+    "style": "standard --fix ",
     "prepare": "husky install"
   },
   "author": "TheAlgorithms",
