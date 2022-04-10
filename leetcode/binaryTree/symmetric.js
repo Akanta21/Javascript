@@ -17,7 +17,6 @@ export const isSymmetric = function (root) {
   const q = [root, root]
 
   while (q.length > 0) {
-    console.log(q)
     const [l, r] = [q.shift(), q.shift()]
     if (!l && !r) continue
     if (!!l !== !!r || l.val !== r.val) return false
